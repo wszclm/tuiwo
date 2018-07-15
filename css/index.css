@@ -1,0 +1,427 @@
+@import url('base.css');
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+body {
+    background: #EFEFEF;
+}
+
+.container {
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    background-color: #0e6eb8;
+}
+
+.top {
+    width: 100%;
+    height: 88px;
+}
+
+.logo {
+    float: left;
+    width: 332px;
+    padding: 4px;
+}
+
+.logo > a {
+    width: 100%;
+    height: 100%;
+}
+
+.logo > a > img {
+    width: 193px;
+    height: 80px;
+}
+
+.advert {
+    float: left;
+    margin-left: 0;
+    border: 1px solid #ddd;
+    background: #fff;
+    margin-top: 20px;
+}
+
+.advert > a {
+    width: 100%;
+    height: 100%;
+}
+
+.advert > a > img {
+    width: 468px;
+    height: 60px;
+}
+
+.login {
+    float: right;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0 10px;
+}
+
+.login > a {
+    display: inline-block;
+    color: #fff;
+}
+.nav{
+    width: 100%;
+    background: url(../img/navbg.png) repeat;
+}
+.nav1{
+    height: auto;
+}
+.nav1>li{
+    width: 25%;
+    height: 44px;
+    float: left;
+    box-sizing: border-box;
+    border-right: 1px solid #1065A5;
+}
+.nav2>li:first-child a{
+    background: #F73C29;
+}
+.nav2>li:nth-child(2) a{
+    background: #ffa915;
+}
+.nav-lg1>li:nth-child(11) a{
+    padding: 0 20px;
+    background: #F76729;
+    color: #fff;
+}
+.nav li>a:hover,.nav-lg li>a:hover{
+    background: #1065A5;
+    color: #fff;
+}
+.nav1>li:first-child a{
+    background: #1065A5;
+    color: #fff;
+}
+.nav1>li:nth-child(4n){
+    border-right: none;
+}
+.nav li>a{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 44px;
+    color: #000;
+    font-size: 18px;
+}
+
+.nav2{
+    height: auto;
+}
+.nav2>li{
+    width: 33.3%;
+    height: 44px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.nav2>li>a{
+    width: 100%;
+    height: 100%;
+    background: #F76729;
+    color: #fff;
+}
+
+.nav-lg{
+    display: none;
+    width: 100%;
+    height: auto;
+    background: url(../img/navbg.png) repeat-x center center;
+}
+.nav-lg1{
+    height: 44px;
+}
+.nav-lg1>li{
+    float: left;
+    text-align: center;
+    border-right: 1px solid #1065a5;
+}
+.nav-lg1>li:nth-child(10){
+    border-right: none;
+}
+.nav-lg1>li:nth-child(11){
+    border-right: none;
+    float: right;
+}
+
+.nav-lg1>li>a{
+    font-size: 18px;
+    color: #000;
+    padding: 0 10px;
+    line-height: 44px;
+}
+
+
+/*主要内容*/
+.main-box{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+.main{
+    width: 100%;
+    background: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    overflow: hidden;
+}
+.main1{
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.main3{
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.title{
+    border-bottom: 1px solid #d3d3d3;
+    line-height: 28px;
+    overflow: hidden;
+}
+.title h2{
+    background: url("../img/6.png") no-repeat center left;
+    font-size: 18px;
+    padding-left: 30px;
+    float: left;
+}
+.title span{
+    float: left;
+    font-size: 12px;
+}
+.title span b{
+    font-weight: bolder;
+}
+.main1-m{
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+.main1-m li{
+    padding:10px;
+}
+.main1-m li a{
+    border: 1px solid #0e6eb8;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: #0e6eb8;
+}
+.main1-m li a:hover{
+    border: 1px solid #FFB948;
+    background: #FFB948;
+}
+.main1-img{
+    width: 100%;
+    height: 130px;
+    float: left;
+}
+.main1-img img{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+.main1-m li a span{
+    display: block;
+    height: 26px;
+    line-height: 26px;
+    float: left;
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+}
+.main2{
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.main2-m{
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+.main2-m li{
+    height: 30px;
+    float: left;
+    padding: 0 10px;
+    margin-top: 1px;
+    margin-bottom: 2px;
+    overflow: hidden;
+}
+.main2-m li a{
+    width: 100%;
+    height: 100%;
+    background: #EDEDED;
+    line-height: 30px;
+    color: #000;
+    box-sizing: border-box;
+    padding: 0 10px;
+    font-size: 12px;
+}
+.main2-m li a:hover{
+    background: #0E6EB8;
+    color: #fff;
+}
+.main3-m{
+    width: 100%;
+    box-sizing: border-box;
+    height: 200px;
+    margin-top: 10px;
+}
+.m3-img a{
+    width: 100%;
+    height: 100%;
+}
+.m3-img a img{
+    display: block;
+    margin: 0 auto;
+    width: 168px;
+    height: 118px;
+}
+.m3-img a span{
+    line-height: 24px;
+    font-size: 12px;
+    color: #2a2a2a;
+}
+.m3-img a:hover span{
+    color: #048F1B;
+}
+.bq ul li{
+    background: url("../img/eg_arrow.gif") no-repeat center left;
+    padding-left: 20px;
+}
+.bq ul li a{
+    line-height: 24px;
+    font-size: 14px;
+    color: #2a2a2a;
+}
+.bq ul li a:hover{
+    color: #048F1B;
+}
+.main4{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.main4-m{
+    padding: 10px 0;
+}
+.main4-m li{
+    float: left;
+    padding-right: 10px;
+}
+.main4-m li a{
+    line-height: 24px;
+    color: #000;
+    font-size: 12px;
+}
+footer{
+    height: 80px;
+    width: 100%;
+    background: #939393;
+    box-sizing: border-box;
+    padding-top: 15px;
+}
+.copy{
+    float: left;
+    font-size: 12px;
+    color: #fff;
+    padding-left: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.copy a{
+    display: inline-block;
+    color: #fff;
+    font-weight: bold;
+}
+.about{
+    /*float: right;*/
+    padding-left: 50px;
+}
+.ab li{
+    float: left;
+    margin-right: 10px;
+}
+.ab li a{
+    font: inherit;
+    font-size: 12px;
+    color: #fff;
+}
+/*初始样式*/
+.logo {
+    width: 200px;
+}
+
+.advert {
+    display: none;
+}
+
+/*媒体查询*/
+@media screen  and (min-width: 768px) {
+
+    .title span{
+        float: right;
+    }
+    .main1-img{
+        height: 170px;
+    }
+}
+
+@media screen  and (min-width: 992px) {
+    .advert {
+        display: block;
+    }
+
+    .logo {
+        width: 332px;
+    }
+    .nav{
+        display: none;
+    }
+    .nav-lg{
+        display: block;
+    }
+    .title span{
+        font-size: 13px;
+    }
+    .main1-img{
+        height: 170px;
+    }
+    .copy{
+        width: 70%;
+    }
+    footer{
+        height: 50px;
+    }
+    .main4-m li a{
+        line-height: 24px;
+        color: #8A8A8A;
+        font-size: 15px;
+    }
+}
+
+@media screen  and (min-width: 1200px) {
+    .nav-lg1>li>a{
+        padding: 0 20px;
+    }
+    .main1-img{
+        height: 118px;
+    }
+}
